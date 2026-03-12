@@ -1,0 +1,14 @@
+requests
+beautifulsoup4
+pandas
+playwright
+aiohttp
+asyncio
+gspread
+oauth2client
+python-dotenv
+tenacity
+tqdm
+pyyaml
+loguru
+lxml

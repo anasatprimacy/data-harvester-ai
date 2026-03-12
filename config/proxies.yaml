@@ -1,0 +1,6 @@
+proxies:
+  enabled: false
+  http:
+  https:
+  rotation_strategy: round_robin
+

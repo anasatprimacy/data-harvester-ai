@@ -1,0 +1,108 @@
+from __future__ import annotations
+
+import asyncio
+from dataclasses import dataclass
+from typing import Any, Dict, Iterable, List, Sequence, Type
+
+from loguru import logger
+from tqdm.asyncio import tqdm_asyncio
+
+from config.settings import Settings
+from scrapers.base_scraper import BaseScraper
+from scrapers.google_scraper import GoogleScraper
+from scrapers.maps_scraper import MapsScraper
+from scrapers.website_scraper import WebsiteScraper
+from scrapers.linkedin_scraper import LinkedInScraper
+from scrapers.indiamart_scraper import IndiaMartScraper
+from scrapers.tradeindia_scraper import TradeIndiaScraper
+from scrapers.justdial_scraper import JustDialScraper
+from scrapers.clutch_scraper import ClutchScraper
+from scrapers.goodfirms_scraper import GoodFirmsScraper
+from utils.request_manager import RequestManager
+
+
+SCRAPER_REGISTRY: Dict[str, Type[BaseScraper]] = {
+    "google": GoogleScraper,
+    "maps": MapsScraper,
+    "website": WebsiteScraper,
+    "linkedin": LinkedInScraper,
+    "indiamart": IndiaMartScraper,
+    "tradeindia": TradeIndiaScraper,
+    "justdial": JustDialScraper,
+    "clutch": ClutchScraper,
+    "goodfirms": GoodFirmsScraper,
+}
+
+
+@dataclass
+class ScraperResult:
+    records: List[Dict[str, Any]]
+
+
+class ScraperEngine:
+    def __init__(self, settings: Settings) -> None:
+        self.settings = settings
+
+    def _active_platforms(self) -> Sequence[str]:
+        p = self.settings.platforms
+        platforms: List[str] = []
+        if p.google:
+            platforms.append("google")
+        if p.maps:
+            platforms.append("maps")
+        if p.website:
+            platforms.append("website")
+        if p.linkedin:
+            platforms.append("linkedin")
+        # B2B / directory scrapers
+        if getattr(p, "indiamart", False):
+            platforms.append("indiamart")
+        if getattr(p, "tradeindia", False):
+            platforms.append("tradeindia")
+        if getattr(p, "justdial", False):
+            platforms.append("justdial")
+        if getattr(p, "clutch", False):
+            platforms.append("clutch")
+        if getattr(p, "goodfirms", False):
+            platforms.append("goodfirms")
+        return platforms
+
+    async def _run_for_query(
+        self,
+        query: str,
+        platforms: Sequence[str],
+        request_manager: RequestManager,
+    ) -> List[Dict[str, Any]]:
+        tasks = []
+        for name in platforms:
+            scraper_cls = SCRAPER_REGISTRY.get(name)
+            if not scraper_cls:
+                logger.warning(f"No scraper registered for platform={name}")
+                continue
+            scraper = scraper_cls(request_manager=request_manager)
+            await scraper.initialize()
+            tasks.append(scraper.search_and_extract(query))
+        results: List[Dict[str, Any]] = []
+        if tasks:
+            for out in await asyncio.gather(*tasks, return_exceptions=True):
+                if isinstance(out, Exception):
+                    logger.error(f"Scraper error for query='{query}': {out}")
+                else:
+                    results.extend(out)
+        return results
+
+    async def run_async(self, queries: Iterable[str]) -> ScraperResult:
+        platforms = self._active_platforms()
+        all_records: List[Dict[str, Any]] = []
+
+        async with RequestManager(proxy_config=self.settings.proxies.__dict__) as rm:
+            for query in tqdm_asyncio(list(queries), desc="Scraping queries"):
+                try:
+                    records = await self._run_for_query(query, platforms, rm)
+                    logger.info(f"Query '{query}' yielded {len(records)} raw records")
+                    all_records.extend(records)
+                except Exception as exc:  # noqa: BLE001
+                    logger.exception(f"Failed to scrape for query='{query}': {exc}")
+
+        return ScraperResult(records=all_records)
+

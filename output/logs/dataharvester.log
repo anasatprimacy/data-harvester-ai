@@ -1,0 +1,127 @@
+2026-03-12 10:29:51.746 | INFO     | __main__:main:15 - DataHarvester starting up
+2026-03-12 10:30:27.064 | INFO     | __main__:main:15 - DataHarvester starting up
+2026-03-12 10:30:27.098 | INFO     | core.orchestrator:run:57 - Running scraper engine for 19 jobs / queries.
+2026-03-12 10:30:31.250 | INFO     | core.scraper_engine:run_async:81 - Query 'erp companies' yielded 0 raw records
+2026-03-12 10:30:35.280 | INFO     | core.scraper_engine:run_async:81 - Query 'ERP companies nan' yielded 0 raw records
+2026-03-12 10:30:39.307 | INFO     | core.scraper_engine:run_async:81 - Query 'ERP software providers nan' yielded 0 raw records
+2026-03-12 10:30:43.348 | INFO     | core.scraper_engine:run_async:81 - Query 'enterprise resource planning companies nan' yielded 0 raw records
+2026-03-12 10:30:49.168 | INFO     | core.scraper_engine:run_async:81 - Query 'ERP vendors nan' yielded 0 raw records
+2026-03-12 10:30:53.212 | INFO     | core.scraper_engine:run_async:81 - Query 'SAP partners nan' yielded 0 raw records
+2026-03-12 10:30:57.343 | INFO     | core.scraper_engine:run_async:81 - Query 'Oracle ERP partners nan' yielded 0 raw records
+2026-03-12 10:31:01.389 | INFO     | core.scraper_engine:run_async:81 - Query 'Microsoft Dynamics partners nan' yielded 0 raw records
+2026-03-12 10:31:05.428 | INFO     | core.scraper_engine:run_async:81 - Query 'ERP implementation firms nan' yielded 0 raw records
+2026-03-12 10:31:09.524 | INFO     | core.scraper_engine:run_async:81 - Query 'sap partners' yielded 0 raw records
+2026-03-12 10:31:13.549 | INFO     | core.scraper_engine:run_async:81 - Query 'logistics companies' yielded 0 raw records
+2026-03-12 10:31:17.568 | INFO     | core.scraper_engine:run_async:81 - Query 'logistics companies nan' yielded 0 raw records
+2026-03-12 10:31:21.588 | INFO     | core.scraper_engine:run_async:81 - Query 'logistics companies logistics' yielded 0 raw records
+2026-03-12 10:31:25.615 | INFO     | core.scraper_engine:run_async:81 - Query 'manufacturing companies' yielded 0 raw records
+2026-03-12 10:31:29.640 | INFO     | core.scraper_engine:run_async:81 - Query 'manufacturing companies germany' yielded 0 raw records
+2026-03-12 10:31:33.746 | INFO     | core.scraper_engine:run_async:81 - Query 'manufacturing companies manufacturing' yielded 0 raw records
+2026-03-12 10:31:37.844 | INFO     | core.scraper_engine:run_async:81 - Query 'tech startups' yielded 0 raw records
+2026-03-12 10:31:41.859 | INFO     | core.scraper_engine:run_async:81 - Query 'tech startups nan' yielded 0 raw records
+2026-03-12 10:31:45.857 | INFO     | core.scraper_engine:run_async:81 - Query 'tech startups technology' yielded 0 raw records
+2026-03-12 10:31:45.860 | INFO     | core.orchestrator:run:61 - Collected 0 raw records.
+2026-03-12 10:31:45.861 | INFO     | core.orchestrator:run:64 - Pipeline produced 0 final records.
+2026-03-12 10:32:41.406 | INFO     | __main__:main:15 - DataHarvester starting up
+2026-03-12 10:32:41.412 | INFO     | core.orchestrator:run:57 - Running scraper engine for 19 jobs / queries.
+2026-03-12 10:32:45.092 | INFO     | core.scraper_engine:run_async:81 - Query 'erp companies' yielded 0 raw records
+2026-03-12 10:32:49.092 | INFO     | core.scraper_engine:run_async:81 - Query 'ERP companies nan' yielded 0 raw records
+2026-03-12 10:32:53.121 | INFO     | core.scraper_engine:run_async:81 - Query 'ERP software providers nan' yielded 0 raw records
+2026-03-12 10:32:57.166 | INFO     | core.scraper_engine:run_async:81 - Query 'enterprise resource planning companies nan' yielded 0 raw records
+2026-03-12 10:33:01.182 | INFO     | core.scraper_engine:run_async:81 - Query 'ERP vendors nan' yielded 0 raw records
+2026-03-12 10:33:05.220 | INFO     | core.scraper_engine:run_async:81 - Query 'SAP partners nan' yielded 0 raw records
+2026-03-12 10:33:09.243 | INFO     | core.scraper_engine:run_async:81 - Query 'Oracle ERP partners nan' yielded 0 raw records
+2026-03-12 10:33:13.284 | INFO     | core.scraper_engine:run_async:81 - Query 'Microsoft Dynamics partners nan' yielded 0 raw records
+2026-03-12 10:33:17.341 | INFO     | core.scraper_engine:run_async:81 - Query 'ERP implementation firms nan' yielded 0 raw records
+2026-03-12 10:33:20.808 | INFO     | core.scraper_engine:run_async:81 - Query 'sap partners' yielded 0 raw records
+2026-03-12 10:33:24.341 | INFO     | core.scraper_engine:run_async:81 - Query 'logistics companies' yielded 0 raw records
+2026-03-12 10:33:28.357 | INFO     | core.scraper_engine:run_async:81 - Query 'logistics companies nan' yielded 0 raw records
+2026-03-12 10:33:32.483 | INFO     | core.scraper_engine:run_async:81 - Query 'logistics companies logistics' yielded 0 raw records
+2026-03-12 10:33:36.549 | INFO     | core.scraper_engine:run_async:81 - Query 'manufacturing companies' yielded 0 raw records
+2026-03-12 10:33:40.054 | INFO     | core.scraper_engine:run_async:81 - Query 'manufacturing companies germany' yielded 0 raw records
+2026-03-12 10:33:43.591 | INFO     | core.scraper_engine:run_async:81 - Query 'manufacturing companies manufacturing' yielded 0 raw records
+2026-03-12 10:33:47.648 | INFO     | core.scraper_engine:run_async:81 - Query 'tech startups' yielded 0 raw records
+2026-03-12 10:33:51.753 | INFO     | core.scraper_engine:run_async:81 - Query 'tech startups nan' yielded 0 raw records
+2026-03-12 10:33:55.782 | INFO     | core.scraper_engine:run_async:81 - Query 'tech startups technology' yielded 0 raw records
+2026-03-12 10:33:55.790 | INFO     | core.orchestrator:run:61 - Collected 0 raw records.
+2026-03-12 10:33:55.791 | INFO     | core.orchestrator:run:64 - Pipeline produced 0 final records.
+2026-03-12 10:41:20.457 | INFO     | __main__:main:15 - DataHarvester starting up
+2026-03-12 10:41:20.465 | INFO     | core.orchestrator:run:57 - Running scraper engine for 19 jobs / queries.
+2026-03-12 10:41:24.664 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='erp companies': RetryError[<Future at 0x1e46cec0910 state=finished raised ClientResponseError>]
+2026-03-12 10:41:24.664 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='erp companies': RetryError[<Future at 0x1e46c9d3040 state=finished raised ClientResponseError>]
+2026-03-12 10:41:24.664 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='erp companies': RetryError[<Future at 0x1e46cabd850 state=finished raised ClientResponseError>]
+2026-03-12 10:41:24.665 | INFO     | core.scraper_engine:run_async:102 - Query 'erp companies' yielded 0 raw records
+2026-03-12 10:41:28.726 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='ERP companies nan': RetryError[<Future at 0x1e46cf7a2d0 state=finished raised ClientResponseError>]
+2026-03-12 10:41:28.727 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='ERP companies nan': RetryError[<Future at 0x1e46cf796d0 state=finished raised ClientResponseError>]
+2026-03-12 10:41:28.727 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='ERP companies nan': RetryError[<Future at 0x1e46cf7a050 state=finished raised ClientResponseError>]
+2026-03-12 10:41:28.728 | INFO     | core.scraper_engine:run_async:102 - Query 'ERP companies nan' yielded 0 raw records
+2026-03-12 10:41:32.788 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='ERP software providers nan': RetryError[<Future at 0x1e46cf79e50 state=finished raised ClientResponseError>]
+2026-03-12 10:41:32.788 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='ERP software providers nan': RetryError[<Future at 0x1e46cf79850 state=finished raised ClientResponseError>]
+2026-03-12 10:41:32.789 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='ERP software providers nan': RetryError[<Future at 0x1e46cf79750 state=finished raised ClientResponseError>]
+2026-03-12 10:41:32.790 | INFO     | core.scraper_engine:run_async:102 - Query 'ERP software providers nan' yielded 0 raw records
+2026-03-12 10:41:36.924 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='enterprise resource planning companies nan': RetryError[<Future at 0x1e46d81afd0 state=finished raised ClientResponseError>]
+2026-03-12 10:41:36.925 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='enterprise resource planning companies nan': RetryError[<Future at 0x1e46d81b450 state=finished raised ClientResponseError>]
+2026-03-12 10:41:36.926 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='enterprise resource planning companies nan': RetryError[<Future at 0x1e46d81ac50 state=finished raised ClientResponseError>]
+2026-03-12 10:41:36.926 | INFO     | core.scraper_engine:run_async:102 - Query 'enterprise resource planning companies nan' yielded 0 raw records
+2026-03-12 10:41:41.305 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='ERP vendors nan': RetryError[<Future at 0x1e46e0d9050 state=finished raised ClientResponseError>]
+2026-03-12 10:41:41.305 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='ERP vendors nan': RetryError[<Future at 0x1e46e0d8ed0 state=finished raised ClientResponseError>]
+2026-03-12 10:41:41.306 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='ERP vendors nan': RetryError[<Future at 0x1e46e0d89d0 state=finished raised ClientResponseError>]
+2026-03-12 10:41:41.307 | INFO     | core.scraper_engine:run_async:102 - Query 'ERP vendors nan' yielded 0 raw records
+2026-03-12 10:41:45.351 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='SAP partners nan': RetryError[<Future at 0x1e46e1901d0 state=finished raised ClientResponseError>]
+2026-03-12 10:41:45.352 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='SAP partners nan': RetryError[<Future at 0x1e46e190550 state=finished raised ClientResponseError>]
+2026-03-12 10:41:45.353 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='SAP partners nan': RetryError[<Future at 0x1e46e1905d0 state=finished raised ClientResponseError>]
+2026-03-12 10:41:45.354 | INFO     | core.scraper_engine:run_async:102 - Query 'SAP partners nan' yielded 0 raw records
+2026-03-12 10:41:49.457 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='Oracle ERP partners nan': RetryError[<Future at 0x1e46e5de850 state=finished raised ClientResponseError>]
+2026-03-12 10:41:49.457 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='Oracle ERP partners nan': RetryError[<Future at 0x1e46e5dddd0 state=finished raised ClientResponseError>]
+2026-03-12 10:41:49.458 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='Oracle ERP partners nan': RetryError[<Future at 0x1e46e5dd7d0 state=finished raised ClientResponseError>]
+2026-03-12 10:41:49.458 | INFO     | core.scraper_engine:run_async:102 - Query 'Oracle ERP partners nan' yielded 0 raw records
+2026-03-12 10:41:53.496 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='Microsoft Dynamics partners nan': RetryError[<Future at 0x1e46e5dcc50 state=finished raised ClientResponseError>]
+2026-03-12 10:41:53.497 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='Microsoft Dynamics partners nan': RetryError[<Future at 0x1e46d8343d0 state=finished raised ClientResponseError>]
+2026-03-12 10:41:53.497 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='Microsoft Dynamics partners nan': RetryError[<Future at 0x1e46dc080d0 state=finished raised ClientResponseError>]
+2026-03-12 10:41:53.498 | INFO     | core.scraper_engine:run_async:102 - Query 'Microsoft Dynamics partners nan' yielded 0 raw records
+2026-03-12 10:41:57.574 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='ERP implementation firms nan': RetryError[<Future at 0x1e46d834150 state=finished raised ClientResponseError>]
+2026-03-12 10:41:57.575 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='ERP implementation firms nan': RetryError[<Future at 0x1e46d81a750 state=finished raised ClientResponseError>]
+2026-03-12 10:41:57.575 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='ERP implementation firms nan': RetryError[<Future at 0x1e46d8342d0 state=finished raised ClientResponseError>]
+2026-03-12 10:41:57.575 | INFO     | core.scraper_engine:run_async:102 - Query 'ERP implementation firms nan' yielded 0 raw records
+2026-03-12 10:42:01.712 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='sap partners': RetryError[<Future at 0x1e46e555a50 state=finished raised ClientResponseError>]
+2026-03-12 10:42:01.713 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='sap partners': RetryError[<Future at 0x1e46e554fd0 state=finished raised ClientResponseError>]
+2026-03-12 10:42:01.713 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='sap partners': RetryError[<Future at 0x1e46e5556d0 state=finished raised ClientResponseError>]
+2026-03-12 10:42:01.713 | INFO     | core.scraper_engine:run_async:102 - Query 'sap partners' yielded 0 raw records
+2026-03-12 10:42:05.690 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='logistics companies': RetryError[<Future at 0x1e46d36cb50 state=finished raised ClientResponseError>]
+2026-03-12 10:42:05.690 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='logistics companies': RetryError[<Future at 0x1e46d36c8d0 state=finished raised ClientResponseError>]
+2026-03-12 10:42:05.690 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='logistics companies': RetryError[<Future at 0x1e46d36c850 state=finished raised ClientResponseError>]
+2026-03-12 10:42:05.690 | INFO     | core.scraper_engine:run_async:102 - Query 'logistics companies' yielded 0 raw records
+2026-03-12 10:42:09.750 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='logistics companies nan': RetryError[<Future at 0x1e46db56cd0 state=finished raised ClientResponseError>]
+2026-03-12 10:42:09.750 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='logistics companies nan': RetryError[<Future at 0x1e46db56950 state=finished raised ClientResponseError>]
+2026-03-12 10:42:09.751 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='logistics companies nan': RetryError[<Future at 0x1e46db565d0 state=finished raised ClientResponseError>]
+2026-03-12 10:42:09.751 | INFO     | core.scraper_engine:run_async:102 - Query 'logistics companies nan' yielded 0 raw records
+2026-03-12 10:42:13.791 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='logistics companies logistics': RetryError[<Future at 0x1e46db4b3d0 state=finished raised ClientResponseError>]
+2026-03-12 10:42:13.792 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='logistics companies logistics': RetryError[<Future at 0x1e46db48450 state=finished raised ClientResponseError>]
+2026-03-12 10:42:13.793 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='logistics companies logistics': RetryError[<Future at 0x1e46db4aa50 state=finished raised ClientResponseError>]
+2026-03-12 10:42:13.793 | INFO     | core.scraper_engine:run_async:102 - Query 'logistics companies logistics' yielded 0 raw records
+2026-03-12 10:42:17.824 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='manufacturing companies': RetryError[<Future at 0x1e46dbc2650 state=finished raised ClientResponseError>]
+2026-03-12 10:42:17.825 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='manufacturing companies': RetryError[<Future at 0x1e46dbc1f50 state=finished raised ClientResponseError>]
+2026-03-12 10:42:17.825 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='manufacturing companies': RetryError[<Future at 0x1e46dbc22d0 state=finished raised ClientResponseError>]
+2026-03-12 10:42:17.825 | INFO     | core.scraper_engine:run_async:102 - Query 'manufacturing companies' yielded 0 raw records
+2026-03-12 10:42:21.865 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='manufacturing companies germany': RetryError[<Future at 0x1e46e1d0a50 state=finished raised ClientResponseError>]
+2026-03-12 10:42:21.865 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='manufacturing companies germany': RetryError[<Future at 0x1e46e1d0450 state=finished raised ClientResponseError>]
+2026-03-12 10:42:21.866 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='manufacturing companies germany': RetryError[<Future at 0x1e46e23fcd0 state=finished raised ClientResponseError>]
+2026-03-12 10:42:21.867 | INFO     | core.scraper_engine:run_async:102 - Query 'manufacturing companies germany' yielded 0 raw records
+2026-03-12 10:42:25.999 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='manufacturing companies manufacturing': RetryError[<Future at 0x1e46dbcc350 state=finished raised ClientResponseError>]
+2026-03-12 10:42:26.000 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='manufacturing companies manufacturing': RetryError[<Future at 0x1e46e1d0c50 state=finished raised ClientResponseError>]
+2026-03-12 10:42:26.000 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='manufacturing companies manufacturing': RetryError[<Future at 0x1e46e1d2650 state=finished raised ClientResponseError>]
+2026-03-12 10:42:26.001 | INFO     | core.scraper_engine:run_async:102 - Query 'manufacturing companies manufacturing' yielded 0 raw records
+2026-03-12 10:42:30.050 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='tech startups': RetryError[<Future at 0x1e46d79e750 state=finished raised ClientResponseError>]
+2026-03-12 10:42:30.051 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='tech startups': RetryError[<Future at 0x1e46d79ee50 state=finished raised ClientResponseError>]
+2026-03-12 10:42:30.052 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='tech startups': RetryError[<Future at 0x1e46d79ead0 state=finished raised ClientResponseError>]
+2026-03-12 10:42:30.052 | INFO     | core.scraper_engine:run_async:102 - Query 'tech startups' yielded 0 raw records
+2026-03-12 10:42:34.190 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='tech startups nan': RetryError[<Future at 0x1e46e48e650 state=finished raised ClientResponseError>]
+2026-03-12 10:42:34.192 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='tech startups nan': RetryError[<Future at 0x1e46e48ded0 state=finished raised ClientResponseError>]
+2026-03-12 10:42:34.193 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='tech startups nan': RetryError[<Future at 0x1e46e48cb50 state=finished raised ClientResponseError>]
+2026-03-12 10:42:34.194 | INFO     | core.scraper_engine:run_async:102 - Query 'tech startups nan' yielded 0 raw records
+2026-03-12 10:42:37.891 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='tech startups technology': RetryError[<Future at 0x1e470066050 state=finished raised ClientResponseError>]
+2026-03-12 10:42:37.892 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='tech startups technology': RetryError[<Future at 0x1e470065ad0 state=finished raised ClientResponseError>]
+2026-03-12 10:42:37.892 | ERROR    | core.scraper_engine:_run_for_query:89 - Scraper error for query='tech startups technology': RetryError[<Future at 0x1e470065c50 state=finished raised ClientResponseError>]
+2026-03-12 10:42:37.892 | INFO     | core.scraper_engine:run_async:102 - Query 'tech startups technology' yielded 0 raw records
+2026-03-12 10:42:37.900 | INFO     | core.orchestrator:run:61 - Collected 0 raw records.
+2026-03-12 10:42:37.900 | INFO     | core.orchestrator:run:64 - Pipeline produced 0 final records.
