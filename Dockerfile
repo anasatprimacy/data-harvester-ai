@@ -18,8 +18,7 @@ COPY requirements.txt .
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Install Playwright browsers
-RUN playwright install chromium
+# Install Playwright browser dependencies (requires root)
 RUN playwright install-deps chromium
 
 # Copy application code
@@ -36,6 +35,9 @@ ENV PYTHONUNBUFFERED=1
 RUN useradd -m -u 1000 appuser && chown -R appuser:appuser /app
 USER appuser
 
+# Install Playwright browsers as the non-root user
+RUN playwright install chromium
+
 # Expose port (if running web interface)
 EXPOSE 8000
 
@@ -44,4 +46,4 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
     CMD python -c "import requests; requests.get('http://localhost:8000/health')" || exit 1
 
 # Default command
-CMD ["python", "main.py"]
+CMD ["python", "run_backend.py"]
