@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: data-harvester-api
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python backend_api.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11
